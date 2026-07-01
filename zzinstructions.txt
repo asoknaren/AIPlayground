@@ -1,0 +1,30 @@
+
+
+
+#-------- VIRTUAL ENVIRONMENT ------------------------
+
+py -m venv .venv
+python3 -m venv .venv
+
+-----Activate----- 
+.venv\Scripts\Activate.ps1  ------- windows
+source .venv/bin/activate   ------- mac
+
+uv init
+
+uv sync
+
+uv add ??
+
+deactivate
+
+#-------- VIRTUAL ENVIRONMENT ------------------------
+
+git remote add origin https://github.com/asoknaren/fastapiclassrepo.git
+git remote -v
+
+git remote set-url origin https://github.com/asoknaren/fastapiclassrepo.git
+git remote -v
+
+git remote set-url origin https://github.com/asoknaren/AIPlayground.git
+#-------- LOCAL TESTING --------------------------------
